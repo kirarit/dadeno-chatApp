@@ -107,6 +107,12 @@
 				swal("Warning", "Empty name!", "warning");
 				return;
 			}
+			us = $("#usr").val();
+			if (us.length < 3)
+			{
+				swal("Error","Name too short", "error");
+				return;
+            }
 
 			userName = $("#usr").val();
 
