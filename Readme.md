@@ -1,4 +1,4 @@
-# Dadeno Chat app made with Deno
+# Deno chat app
 This is a simple Chat app made using Deno runtime.
 
 ## Setup
