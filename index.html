@@ -122,7 +122,7 @@
 			clientWS = new WebSocket("ws://localhost:8080");
 
 			clientWS.onopen = function (event) {
-				swal("Conneceted", "Connected successfully!", "success");
+				swal("Connected", "Connected successfully!", "success");
 
 				$("#loader").hide();
 				$("#chatbox").show();			
